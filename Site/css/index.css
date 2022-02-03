@@ -2,10 +2,13 @@
 
 html{
     scroll-behavior: smooth;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
-body{
-    scroll-behavior: smooth;
-}
+a {
+    text-decoration: none;
+    color: white;
+   }
 header{
     width: 100vw;
     height: 80px;
@@ -45,10 +48,10 @@ header img{
     position: absolute;
     bottom: 0;
     right: 0;
-    margin: 10px 20px;
+    margin: 25px 20px;
     position: fixed;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 25px;
     padding: 5px;
     transition: visibility 0s, opacity 0.5s linear;
 
@@ -69,7 +72,7 @@ header img{
   
 }
 .show {
-    opacity:1;
+    opacity:0.7;
     
 }
 
@@ -188,4 +191,93 @@ header img{
 #btn-ativ{
     display: flex;
     justify-content: center;
+}
+
+/*=============Mapa/Info=============*/
+
+.map-info{
+    height: 970px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.map-info h2{
+    font-family: 'Libre Baskerville', Courier, monospace;
+    font-size: 42px;
+    margin-top: 40px;
+}
+
+.map-info h3{
+    width: 90%;
+    margin: 10px 0;
+}
+
+.info{
+    width: 350px;
+    height: 244px;
+    background-color: #6B995C;
+    border-radius: 30px;
+    border: black solid 2px;
+    margin-top: 50px;
+    color: white;
+   
+    
+}
+.phone{
+    display: flex;
+    justify-content: center;
+}
+
+.info h2{
+    font-size: 25px;
+    margin-right: 20px;
+
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+.fone{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;   
+    
+}
+
+.fone h2{
+    margin: 20px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+/*=============Footer=============*/
+footer{
+    background-color: #6B995C;
+    height: 260px;
+    color: white;
+    line-height: 24px;
+    text-align: center;
+    font-size: 16px;
+   
+}
+
+footer img{
+    width: 80px;
+    margin: 30px;
+}
+.footer-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer h5{
+    margin-top: 10px;
+    font-style: italic;
 }
