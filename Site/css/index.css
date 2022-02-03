@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,500;1,300&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100vw;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+}
+
+header img{
+    margin-top: 10px;
+    margin-left: 3px;
+    width: 65px;
+    height: 65px;
+    margin-right: 15px;
+}
+.nome-logo{
+    left: 27.76%;
+    right: -19.39%;
+    top: 8.47%;
+    bottom: 10.17%;
+}
+
+.nome-logo h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.0927px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+    color: #343D33;
+}
+
+#btn-volta{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px 20px;
+    position: fixed;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: visibility 0s, opacity 0.5s linear;
+
+}
+.nome-logo h3{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12.4517px;
+    line-height: 15px;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    color: #333333;
+}
+
+.hide {
+    opacity:0;
+  
+}
+.show {
+    opacity:1;
+    
+}
+
+/*=============Inicio=============*/
+.inicio{
+    width: 100vw;
+    height: 764px;
+
+}
+.inicio h1{
+    width: 316px;
+    height: 74px;
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 110%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #343D33;
+    margin: 50px auto 0 auto;
+
+}
+
+.inicio h4{
+    width: 343px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    margin: 25px auto 25px auto;
+    color: #414840;
+}
+#inicio-btn{
+    border: 0;
+    background: white;
+    margin: 0px 37%;
+
+}
+.ret{
+    position: absolute;
+    width: 265px;
+    height: 368px;
+    left: 50px;
+    top: 452px;
+
+    opacity: 0.4;
+    /* Header text */
+
+    border: 3px solid #343D33;
+    box-sizing: border-box;
+    border-radius: 338.532px 338.532px 0px 0px;
+}
+/*=============Ativ=============*/
+.active{
+    background-color: #3F8428;
+    width: 100vw;
+    height: 1683px;
+    color: white;
+}
+#inicio-btn a{
+   outline: none;
+   -webkit-tap-highlight-color: transparent;
+}
+
+
+.active{
+    display: flex;
+    flex-direction: column;
+  
+}
+.active h2{
+    padding-top: 50px;
+    width: 344px;
+    height: 74px;
+    left: 16px;
+    top: 888px;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.active svg{
+    width: 342px;
+    align-self: center;
+}
+
+.active h4{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    width: 342px;
+    height: 90px;
+}
+
+.active h3{
+    width: 342px;
+    height: 150px;
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#ramo{
+    position: absolute;
+    right: 0;
+}
+#ramo svg{
+    width: 165px;
+}
+#btn-ativ{
+    display: flex;
+    justify-content: center;
+}
