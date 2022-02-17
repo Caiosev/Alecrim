@@ -1,11 +1,11 @@
-myID = document.getElementById("btn-volta");
+myID = document.querySelector(".menu");
 
 var myScrollFunc = function () {
     var y = window.scrollY;
-    if (y >= 500) {
-        myID.className = "bottomMenu show"
+    if (y >= 700) {
+        myID.className = "menu show"
     } else {
-        myID.className = "bottomMenu hide"
+        myID.className = "menu hide"
     }
 };
 

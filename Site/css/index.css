@@ -4,17 +4,101 @@ html{
     scroll-behavior: smooth;
     outline: none;
     -webkit-tap-highlight-color: transparent;
+    overflow-x :hidden;
 }
 a {
     text-decoration: none;
+   
+}
+ul{
+    margin: 0;
+    padding: 0;
     color: white;
-   }
+}
+li > a{
+    color: white;
+    font-family: Roboto;
+    font-style: italic;
+}
+.menu{
+    list-style: none;
+    gap: 1.8rem;
+    z-index: 3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: LEFT;
+    font-size: 35px;
+    font-weight: 300;
+    position: fixed;
+    top: 5rem;
+    left: -200%;
+    right: 0;
+    width: 75%;
+    height: 85%;
+    margin: auto;
+    padding: 2rem;
+    border: 2px solid black;
+    z-index: 4;
+    -webkit-transition: 1s;
+    transition: 1s;    
+    transition: 1s;
+    right: 0;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#btn-menu{
+    display: flex;
+    padding: .5rem 1rem ;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: .5rem;
+}
+#nav{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.ham{
+    border-top: 2px solid;
+    width: 20px;
+}
+.ham::after,.ham::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: black;
+    margin-top: 5px;
+    transition: .4s;
+    position: relative;
+}
+.menu-ativo {
+    left: 0;
+    background-color: #475F45;
+}
+.x{
+    border-top: transparent;
+}
+.x::before{
+    transform: rotate(135deg);
+
+}
+.x::after{
+    transform: rotate(-135deg);
+    top: -7px;
+}
 header{
     width: 100vw;
     height: 80px;
     left: 0px;
     top: 0px;
     display: flex;
+    position: sticky;
+    background-color: white;
+    z-index: 4;
 }
 .map-desk{
     display: none;
@@ -45,7 +129,7 @@ header img{
     line-height: 22px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 10px;
 
     color: #343D33;
 }
@@ -79,6 +163,8 @@ header img{
 }
 .show {
     opacity:0.7;
+    display: flex !important;
+   
     
 }
 
@@ -89,6 +175,7 @@ header img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x :hidden;
 
 }
 .inicio h1{
@@ -195,7 +282,7 @@ header img{
 }
 #ramo-2{
     position: absolute;
-    left: 0;
+    left: -5%;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     display: none;
@@ -355,8 +442,39 @@ footer h5{
     }
 }
 
-@media (min-width:1200px) and (max-width:1800px){
+@media (min-width:1200px) {
 
+#header{
+    z-index: 2;
+    position: fixed;
+    background-color: white !important;
+}
+.eclipse{
+    z-index: 2;
+}
+.ret{
+    z-index: 5 !important;
+}
+
+
+.menu{
+    left: 0;
+    display: none;
+    flex-direction: row;
+    top: 0;
+    font-size: 25px;
+    justify-content: right;
+    transition: 0.5s;
+    border: 0;
+    
+}
+li > a{
+    color: black;
+}
+
+#btn-menu{
+    display: none;
+}
 
 /*=============Inicio=============*/    
     body{
@@ -396,7 +514,7 @@ footer h5{
     .eclipse{
         display: block;
         position: absolute;
-        left: 38%;
+        left: 40vw;
         right: 0%;
         top: -34%;
         bottom: 10.75%;
@@ -409,7 +527,7 @@ footer h5{
     /*=============Ativ=============*/
     .active{
         display: grid;
-        grid-template-columns: 3% 21% 5% 8% 21% 8% 5% 21% 4%;
+        grid-template-columns: auto 21% 5% 8% 21% 8% 5% 21% 4%;
         grid-template-rows: 14% 15% 15% 39% 19%;
         justify-content: center;
         height: 850px;
