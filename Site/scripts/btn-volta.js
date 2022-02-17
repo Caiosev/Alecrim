@@ -1,3 +1,4 @@
+if(screen.width >=1200){
 myID = document.querySelector(".menu");
 
 var myScrollFunc = function () {
@@ -10,3 +11,4 @@ var myScrollFunc = function () {
 };
 
 window.addEventListener("scroll", myScrollFunc);
+}
