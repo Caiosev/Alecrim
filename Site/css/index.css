@@ -480,6 +480,7 @@ footer h5{
     justify-content: right;
     transition: 0.5s;
     border: 0;
+    height: 5vh;
     
 }
 li > a{
