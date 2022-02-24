@@ -55,6 +55,8 @@ li > a{
     background: none;
     cursor: pointer;
     gap: .5rem;
+    position: absolute;
+    left: 85vw;
 }
 #nav{
     margin-top: 20px;
@@ -442,7 +444,19 @@ footer h5{
     }
 }
 
+
+
 @media (min-width:1200px) {
+
+    .inicio h1{
+        font-size: 45px;
+    }
+    .inicio h4{
+        font-size: 24px;
+    }
+    .active h4{
+        font-size: 18px !important;
+    }
 
 #header{
     z-index: 2;
