@@ -3,6 +3,9 @@ const opcoes = document.querySelector('#opcoes')
 const containerSelect = document.querySelector('#select .container-select')
 const hiddenInput = document.querySelector('#inputSelect')
 const arrow = document.querySelector('.fa-angle-down')
+const psico= document.querySelector('.prof__psico');
+const pintura= document.querySelector('.prof__pintura');
+const mass= document.querySelector('.prof__mass');
 
 document.querySelectorAll('#opcoes > .opcao').forEach((opcao) =>{
     console.log('AAA')
@@ -21,12 +24,17 @@ document.querySelectorAll('#opcoes > .opcao').forEach((opcao) =>{
 
 function ShowSec(sec){
     if(sec == "Psicoterapia"){
-        document.body.style.backgroundColor = "red";
+        psico.classList.add('show-prof')
+        pintura.classList.remove('show-prof')
+        mass.classList.remove('show-prof')
     }else if(sec == "Pintura"){
-        document.body.style.backgroundColor = "yellow";
+        pintura.classList.add('show-prof')
+        mass.classList.remove('show-prof')
+        psico.classList.remove('show-prof')
     }else if(sec =="Massagem"){
-        document.body.style.backgroundColor = "black";
-
+        mass.classList.add('show-prof')
+        pintura.classList.remove('show-prof')
+        psico.classList.remove('show-prof')
     }
 }
 

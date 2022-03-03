@@ -21,7 +21,8 @@ li > a{
     font-style: italic;
 }
 body{
-    background-color: #2140af23;
+    font-family: Libre Basker;
+    background-color: #f5f5f7;
 }
 .menu{
     list-style: none;
@@ -167,7 +168,7 @@ header img{
 body{
     display: grid;
     grid-template-columns: 5vw 90vw 5vw;
-    grid-template-rows: 15vh 85vh;
+    grid-template-rows: 15vh 20vh 65vh;
     justify-content: center;
 }
 
@@ -263,4 +264,39 @@ body{
 
 .up{
     transform: rotate(180deg);
+}
+
+.prof{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+.prof__psico,
+.prof__pintura,
+.prof__mass{
+    display: none;
+}
+.prof-titulo{
+    font-size: 32px;
+    margin: 0.8rem 0;
+    color: #343D33;
+}
+
+.prof-desc{
+    font-size: 22px;
+    color: #697568;
+}
+
+.profissional{
+    background-color: #fff;
+    border-radius: 18px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.profissional img{
+    width:200px ;
+}
+
+.show-prof{
+    display: block;
 }
