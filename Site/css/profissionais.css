@@ -16,9 +16,12 @@ ul{
     color: white;
 }
 li > a{
-    color: white;
+    color: #475F45;
     font-family: Roboto;
     font-style: italic;
+}
+li > a:hover{
+    color: #000;
 }
 body{
     font-family: Libre Basker;
@@ -299,4 +302,43 @@ body{
 
 .show-prof{
     display: block;
+}
+
+@media screen and (min-width:1200px) {
+   .conteudo-opcao{
+    justify-content: center;
+   }
+    .textos{
+        font-size: 25px;
+    }
+   
+    #select{
+       justify-content: center;
+   }
+    
+    .opcao-p{
+        flex-wrap: wrap;
+        display: none;
+        }
+    .profissional{
+        margin-right: 1rem;
+    }
+    .show-prof{
+        display: flex;
+    }
+    .menu{
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        top: 0;
+        font-size: 25px;
+        justify-content: right;
+        transition: 0.5s;
+        border: 0;
+        height: 5vh;
+    }
+  
+    #btn-menu{
+        display: none;
+    }
 }

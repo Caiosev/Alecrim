@@ -459,185 +459,185 @@ footer h5{
         font-size: 18px !important;
     }
 
-#header{
+    #header{
     z-index: 2;
     position: fixed;
     background-color: white !important;
-}
-.eclipse{
-    z-index: 2;
-}
-.ret{
-    z-index: 5 !important;
-}
-
-
-.menu{
-    left: 0;
-    display: none;
-    flex-direction: row;
-    top: 0;
-    font-size: 25px;
-    justify-content: right;
-    transition: 0.5s;
-    border: 0;
-    height: 5vh;
-    
-}
-li > a{
-    color: black;
-}
-
-#btn-menu{
-    display: none;
-}
-
-/*=============Inicio=============*/    
-    body{
-        overflow-x: hidden; 
-    }
-    .inicio{
-        display: grid;
-        grid-template-columns: 5% 36% 15% 36% 8%;
-        grid-template-rows: 9% 14% 11% 28% 18% 20%;
-        justify-content: center;
-       
-    }
-    .inicio h1,
-    #inicio-btn,
-    .inicio h4{
-        grid-column: 2/3;
-        z-index: 1;
-     
-    }
-    .inicio h1{
-        grid-row:3/4;
-    }
-    .inicio h4{
-        grid-row: 4/5;
-    }
-    #inicio-btn{
-        grid-row: 5/6;
-    }
-    .ret{
-        grid-column: 4/5;
-        grid-row: 2/6;
-        justify-self: center;
-        z-index: 1;
-        Width:478px;
-        Height:660px;
     }
     .eclipse{
-        display: block;
-        position: absolute;
-        left: 40vw;
-        right: 0%;
-        top: -34%;
-        bottom: 10.75%;
-        background: #3F8428;
-        border-radius: 100%;
-        Width:1069px;
-        Height:946px;
+        z-index: 2;
+    }
+    .ret{
+        z-index: 5 !important;
     }
 
-    /*=============Ativ=============*/
-    .active{
-        display: grid;
-        grid-template-columns: auto 21% 5% 8% 21% 8% 5% 21% 4%;
-        grid-template-rows: 14% 15% 15% 39% 19%;
-        justify-content: center;
-        height: 850px;
-    }
-    .active h2{
-        grid-row: 1/2;
-        grid-column: 3/8;
-        width: 100%;
+
+    .menu{
+        left: 0;
+        display: none;
+        flex-direction: row;
+        top: 0;
+        font-size: 25px;
+        justify-content: right;
+        transition: 0.5s;
+        border: 0;
+        height: 5vh;
         
     }
-    .active h3{
-        grid-row: 2/4;
-        grid-column: 4/7;
-        width: 100%;
-        text-align: center;
-        margin: 0;
+    li > a{
+        color: black;
     }
-    #btn-ativ{
-        grid-row: 3/4;
-        grid-column: 5/6;
-    }
-    #psico,#mass,#paint{
-        grid-row: 4/5;
-        align-self: end;
-    }
-    #psico{
-        grid-column-start: 2;
-        
-    }
-    #text-psico{
-        grid-column-start: 2;
-        grid-column-end: 4;
-        height: 100%;
-        width: 100%;
-    }
-    #mass{
-        grid-column-start: 8;
-    }
-    #text-paint{
-        grid-column: 5/7;
-        height: 100%;
-        width: 100%;
-    }
-    #paint,#text-paint{
-        grid-column-start: 5;
-    }
-    #text-mass{
-        grid-column: 8/10;
-        height: 100%;
-        width: 100%;
-    }
-    .active h4{
-        grid-row: 5/6;
-        font-size: 20px;
-    }
-    #ramo-2{
-        display: block;
-    }
-        /*=============Info=============*/
-    .map-info{
-        display: grid;
-        grid-template-columns: 5% 34% 7% 49%;
-        grid-template-rows: 14% 7% 17% 23% 38%;
-        justify-items: center;
-    }
-    .map-info h2{
-        grid-column:2/5;
-        text-align: center;
-    }
-    .map-info h3{
-        grid-row: 2/3;
-        grid-column:2/5;
-        font-size: 25px;;
-    }
-    .googlemap{
+
+    #btn-menu{
         display: none;
     }
 
-    .info{
-        grid-row: 5/6;
-        grid-column: 2/5;
-    }
-    .map-desk{
-        display: block;
-        grid-row: 3/5;
-        grid-column: 1/4;
-        width: 100%;
-    }
-    .map-desk iframe{
-        width: 100vw;
-    }
-    .info{
-        width: 600px;
-        margin: 0;
-    }
+    /*=============Inicio=============*/    
+        body{
+            overflow-x: hidden; 
+        }
+        .inicio{
+            display: grid;
+            grid-template-columns: 5% 36% 15% 36% 8%;
+            grid-template-rows: 9% 14% 11% 28% 18% 20%;
+            justify-content: center;
+        
+        }
+        .inicio h1,
+        #inicio-btn,
+        .inicio h4{
+            grid-column: 2/3;
+            z-index: 1;
+        
+        }
+        .inicio h1{
+            grid-row:3/4;
+        }
+        .inicio h4{
+            grid-row: 4/5;
+        }
+        #inicio-btn{
+            grid-row: 5/6;
+        }
+        .ret{
+            grid-column: 4/5;
+            grid-row: 2/6;
+            justify-self: center;
+            z-index: 1;
+            Width:478px;
+            Height:660px;
+        }
+        .eclipse{
+            display: block;
+            position: absolute;
+            left: 40vw;
+            right: 0%;
+            top: -34%;
+            bottom: 10.75%;
+            background: #3F8428;
+            border-radius: 100%;
+            Width:1069px;
+            Height:946px;
+        }
+
+        /*=============Ativ=============*/
+        .active{
+            display: grid;
+            grid-template-columns: auto 21% 5% 8% 21% 8% 5% 21% 4%;
+            grid-template-rows: 14% 15% 15% 39% 19%;
+            justify-content: center;
+            height: 850px;
+        }
+        .active h2{
+            grid-row: 1/2;
+            grid-column: 3/8;
+            width: 100%;
+            
+        }
+        .active h3{
+            grid-row: 2/4;
+            grid-column: 4/7;
+            width: 100%;
+            text-align: center;
+            margin: 0;
+        }
+        #btn-ativ{
+            grid-row: 3/4;
+            grid-column: 5/6;
+        }
+        #psico,#mass,#paint{
+            grid-row: 4/5;
+            align-self: end;
+        }
+        #psico{
+            grid-column-start: 2;
+            
+        }
+        #text-psico{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            height: 100%;
+            width: 100%;
+        }
+        #mass{
+            grid-column-start: 8;
+        }
+        #text-paint{
+            grid-column: 5/7;
+            height: 100%;
+            width: 100%;
+        }
+        #paint,#text-paint{
+            grid-column-start: 5;
+        }
+        #text-mass{
+            grid-column: 8/10;
+            height: 100%;
+            width: 100%;
+        }
+        .active h4{
+            grid-row: 5/6;
+            font-size: 20px;
+        }
+        #ramo-2{
+            display: block;
+        }
+            /*=============Info=============*/
+        .map-info{
+            display: grid;
+            grid-template-columns: 5% 34% 7% 49%;
+            grid-template-rows: 14% 7% 17% 23% 38%;
+            justify-items: center;
+        }
+        .map-info h2{
+            grid-column:2/5;
+            text-align: center;
+        }
+        .map-info h3{
+            grid-row: 2/3;
+            grid-column:2/5;
+            font-size: 25px;;
+        }
+        .googlemap{
+            display: none;
+        }
+
+        .info{
+            grid-row: 5/6;
+            grid-column: 2/5;
+        }
+        .map-desk{
+            display: block;
+            grid-row: 3/5;
+            grid-column: 1/4;
+            width: 100%;
+        }
+        .map-desk iframe{
+            width: 100vw;
+        }
+        .info{
+            width: 600px;
+            margin: 0;
+        }
 
 }
