@@ -275,7 +275,10 @@ body{
 }
 .prof__psico,
 .prof__pintura,
-.prof__mass{
+.prof__mass,
+.prof__mod,.prof__yoga,
+.prof__danca,.prof__const,.prof__acun,.prof__canto
+{
     display: none;
 }
 .prof-titulo{
