@@ -315,7 +315,9 @@ body{
     #select{
        justify-content: center;
    }
-    
+     li > a{
+       color:#697568;
+     }
     .opcao-p{
         flex-wrap: wrap;
         display: none;
