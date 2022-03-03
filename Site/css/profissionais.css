@@ -21,7 +21,7 @@ li > a{
     font-style: italic;
 }
 li > a:hover{
-    color: #000;
+    color: black;
 }
 body{
     font-family: Libre Basker;
@@ -340,5 +340,15 @@ body{
   
     #btn-menu{
         display: none;
+    }
+    
+    body{
+        grid-template-columns: 5vw 70vw 25vw 5vw;    
+    }
+    #box{
+        grid-column: 3/4;
+    }
+    .prof{
+        grid-column: 2/4;
     }
 }
