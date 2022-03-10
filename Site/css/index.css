@@ -5,7 +5,7 @@ html{
     outline: none;
     -webkit-tap-highlight-color: transparent;
     overflow-x :hidden;
-    font-family: Libre Basker;
+    font-family: 'Libre Basker';
 }
 a {
     text-decoration: none;
