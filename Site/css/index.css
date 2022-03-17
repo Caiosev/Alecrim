@@ -220,13 +220,17 @@ header img{
     left: 50px;
     top: 452px;
 
-    opacity: 0.4;
+    opacity: 1;
     /* Header text */
-
+    background-position: center;
+    background-repeat: no-repeat;
     border: 3px solid #343D33;
     box-sizing: border-box;
+    background-image: url(../imagens/WhatsApp\ Image\ 2022-03-17\ at\ 14.38.13.jpeg);
     border-radius: 338.532px 338.532px 0px 0px;
 }
+
+
 /*=============Ativ=============*/
 .active{
     background-color: #3F8428;
@@ -640,4 +644,31 @@ footer h5{
             margin: 0;
         }
 
+}
+
+.events h2{
+    text-align: center;
+    font-family: 'Libre Baskerville';
+    font-size: 42px;
+}
+.events-imgs{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width:1200px) {
+    .events-imgs{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 40px;
+    } 
+}
+.evento-img{
+    width: 350px;
+    margin-right: 10px;
+}
+
+.evento-img img{
+    width: 100%;
 }
