@@ -1,4 +1,11 @@
 const menuItens = document.querySelectorAll('.menu a[href^="#"]')
+const btnHome = document.querySelectorAll('#inicio-btn a[href^="#"]')
+console.log(menuItens)
+console.log(btnHome)
+
+btnHome.forEach (item =>{
+  item.addEventListener('click',scrollToIdOnClick)
+})
 
 menuItens.forEach(item =>{
 
@@ -7,6 +14,7 @@ menuItens.forEach(item =>{
 
 function getScrollTopByHref(element){
     const id = element.getAttribute('href');
+    console.log(element)
     return document.querySelector(id).offsetTop-55;
 
 }
