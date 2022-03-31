@@ -390,7 +390,12 @@ footer h5{
     margin-top: 10px;
     font-style: italic;
 }
-
+footer .nome-logo h1{
+    color: white;
+}
+footer .nome-logo h3{
+    color: white;
+}
 @media (min-width:600px){
     .inicio h1{
         margin: 30px auto 0 auto;
